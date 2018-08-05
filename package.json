@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "A content scraping application for an ecommerce site.",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper.js"
+  },
+  "author": "Eric Hicks",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "csvdata": "^1.7.0",
+    "fs": "0.0.1-security",
+    "json2csv": "^4.2.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
